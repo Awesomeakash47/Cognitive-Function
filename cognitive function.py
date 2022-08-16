@@ -91,7 +91,6 @@ def main():
         for Type, Func in cogFunc.items():
             marks = 0
             for i in range(4):
-                #x = pointMap[Func[i]] * func_multiplier[i]
                 x = (pointMap[Func[i]] - pointMap[axis[Func[i]]]) * func_multiplier[i]
                 marks += x
 
